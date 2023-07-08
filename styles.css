@@ -104,7 +104,7 @@ h1 {
 }
 
 .gallery-image {
-  height: 250px;
+  height: 320px;
   padding: 10px 5px;
   border-radius: 12px;
 }
@@ -140,5 +140,9 @@ a {
 
   .divider {
     width: 50%;
+  }
+
+  .gallery-container {
+    width: 70%;
   }
 }
