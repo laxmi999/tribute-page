@@ -21,6 +21,7 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 2em;
 }
 
 .subtitle {
@@ -62,27 +63,64 @@ h1 {
 #tribute-info {
   height: auto;
   width: 70%;
-  font-size: 1.2em;
 }
 
 .tribute-point {
   font-weight: bold;
+  font-size: 1.3em;
+}
+
+.lists {
+  list-style: none;
 }
 
 .details {
   padding-left: 10px;
 }
 
-.quote {
-  font-style: italic;
-  font-size: 1.3rem;
-  width: 90%;
-  text-align: center;
-  margin: auto;
+.longtext {
+  font-size: 1.1em;
 }
 
-#text {
+.quote {
+  font-style: italic;
+  font-size: 1.3em;
+  width: 90%;
   text-align: center;
+}
+
+.gallery-container {
+  width: 90%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+  overflow-x: scroll;
+  border-radius: 3px;
+  /* margin: 0px 10px; */
+}
+
+.gallery-image {
+  height: 250px;
+  padding: 10px 5px;
+  border-radius: 12px;
+}
+
+.gallery-image:first-of-type {
+  margin-left: 5px;
+}
+
+.gallery-image:last-of-type {
+  margin-right: 5px;
+}
+
+#topic {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 25px;
 }
 
 #footer-text {
@@ -95,8 +133,12 @@ a {
   color: #29497a;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   #tribute-info {
+    width: 50%;
+  }
+
+  .divider {
     width: 50%;
   }
 }
