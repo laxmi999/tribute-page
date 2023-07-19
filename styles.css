@@ -1,5 +1,5 @@
 * {
-  font-family: Garamond, Tahoma;
+  font-family: "Lucida Sans", Tahoma;
 }
 
 body {
@@ -51,7 +51,7 @@ h1 {
 
 #img-caption {
   margin: 0 auto 5px auto;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .divider {
@@ -68,6 +68,7 @@ h1 {
 .tribute-point {
   font-weight: bold;
   font-size: 1.3em;
+  padding-top: 5%;
 }
 
 .lists {
@@ -79,14 +80,14 @@ h1 {
 }
 
 .longtext {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .quote {
   font-style: italic;
-  font-size: 1.3em;
-  width: 90%;
+  font-size: 0.9em;
   text-align: center;
+  padding: 0 20% 0 10%;
 }
 
 .gallery-container {
@@ -117,15 +118,17 @@ h1 {
   margin-right: 5px;
 }
 
-#topic {
+.topic {
   text-align: center;
   font-size: 2em;
-  padding-top: 25px;
+  padding-top: 10%;
+  padding-bottom: 0;
+  font-weight: bold;
 }
 
 #footer-text {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
